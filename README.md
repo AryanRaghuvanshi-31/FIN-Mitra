@@ -223,6 +223,7 @@ SMS content is AES-256 encrypted on-device.
 Encrypted payload → sent to Flask backend via HTTPS.
 
 3️⃣ Backend SMS Processing
+-
 
 Backend decrypts SMS.
 
@@ -247,6 +248,7 @@ Non-Essential
 Micro-Payment (< ₹200)
 
 4️⃣ Smart Budget Engine
+-
 
 Aggregates monthly income & categorized expenses.
 
@@ -267,6 +269,7 @@ Ideal saving targets
 Monthly limits
 
 5️⃣ Smart Debt Engine
+-
 
 Takes loan amount, interest rate, tenure, monthly savings.
 
@@ -287,6 +290,7 @@ Ensures:
 🔐 Tamper-proof logs
 
 7️⃣ Web Dashboard
+-
 
 React frontend fetches user financial summary:
 
