@@ -83,23 +83,16 @@ Fin-Mitra addresses these issues using smart automation, machine learning, and H
 
 4️⃣ Blockchain-Powered Privacy (Hyperledger Fabric)
 
-Stores sensitive SMS logs and metadata securely
-
-Tamper-proof audit trail
-
-Off-chain encrypted storage + on-chain hash
-
-Ensures user’s financial data is never leaked
-
+• Stores sensitive SMS logs and metadata securely
+• Tamper-proof audit trail
+• Off-chain encrypted storage + on-chain hash
+• Ensures user’s financial data is never leaked
 5️⃣ Multilingual Support
 
-Hindi
-
-English
-
-Marathi
-
-Punjabi
+• Hindi
+• English
+• Marathi
+• Punjabi
 
 6️⃣ AI Chatbot Assistant
 - Explains your spending patterns
@@ -207,66 +200,42 @@ React Web Dashboard
 1️⃣ User Authentication
 -
 
-User logs in via React.js Web App or Android App.
-
-Login request → Flask Backend API.
-
-JWT token is issued for secure session flow.
+• User logs in via React.js Web App or Android App
+• Login request → Flask Backend API
+• JWT token is issued for secure session flow
 
 2️⃣ Micro-Payment Capture (Android App)
 -
-
-Android app reads UPI transactional SMS in real-time.
-
-SMS content is AES-256 encrypted on-device.
-
-Encrypted payload → sent to Flask backend via HTTPS.
+• Android app reads UPI transactional SMS in real-time
+• SMS content is AES-256 encrypted on-device
+• Encrypted payload → sent to Flask backend via HTTPS
 
 3️⃣ Backend SMS Processing
 -
-
-Backend decrypts SMS.
-
-NLP-based parser extracts:
-
-Merchant
-
-Amount
-
-UPI ID
-
-Category
-
-Timestamp
-
-Expense is classified as:
-
-Essential
-
-Non-Essential
-
-Micro-Payment (< ₹200)
+• Backend decrypts SMS
+• NLP-based parser extracts:
+    - Merchant
+    - Amount
+    - UPI ID
+    - Category
+    - Timestamp
+• Expense is classified as:
+    - Essential
+    - Non-Essential
+    - Micro-Payment (< ₹200)
 
 4️⃣ Smart Budget Engine
 -
 
-Aggregates monthly income & categorized expenses.
-
-Applies budgeting rules:
-
-20-40-30,
-
-50-30-20,
-
-OR personalized strategy.
-
-Generates insights on:
-
-Overspending
-
-Ideal saving targets
-
-Monthly limits
+• Aggregates monthly income & categorized expenses
+• Applies budgeting rules:
+    - 20-40-30
+    - 50-30-20
+    - OR personalized strategy
+• Generates insights on:
+    - Overspending
+    - Ideal saving targets
+    - Monthly limits
 
 5️⃣ Smart Debt Engine
 -
@@ -292,33 +261,21 @@ Ensures:
 7️⃣ Web Dashboard
 -
 
-React frontend fetches user financial summary:
-
-Expenses
-
-SMS insights
-
-Debt reduction tips
-
-Budget health
-
-Charts & analytics are rendered in:
-
-Recharts
-
-Chart.js
-
+• React frontend fetches user financial summary:
+    - Expenses
+    - SMS insights
+    - Debt reduction tips
+    - Budget health
+• Charts & analytics are rendered in:
+    - Recharts
+    - Chart.js
 8️⃣ User Views Insights
 
-Monthly graphs
-
-Category-wise spend
-
-Micro-payment heatmap
-
-Debt payoff forecast
-
-Smart alerts & recommendations
+• Monthly graphs
+• Category-wise spend
+• Micro-payment heatmap
+• Debt payoff forecast
+• Smart alerts & recommendations
 
 ⚙️ Setup Instructions
 -
